@@ -3,10 +3,11 @@ def my own map(source_array, factor=1)
   i=0
   eq = []
   while i<source_array.length do
-    source_array.length[i]*factor
+    eq[i]=source_array.length[i]*factor
+    i+=1
   end
-  yield
+  yield(eq)
 end
 
 my own map(source_array, -1)
-  {|factor| 
+  {return eq}
