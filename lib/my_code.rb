@@ -1,13 +1,7 @@
 # Your Code Here
-def myownmap(source_array, factor=1)
-  i=0
-  eq = []
-  while i<source_array.length do
-    eq[i]=source_array.length[i]*factor
-    i+=1
-  end
-  yield(eq)
+def map(source_array)
+  yield(source_array)
 end
 
-myownmap(source_array, -1)
-  {|eq| return eq;}
+myownmap(source_array)
+  {|n| n * -1}
