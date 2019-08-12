@@ -8,6 +8,9 @@ def map(source_array)
   new_array
 end
 
-def reduce(source_array)
-
+def reduce(source_array, total=0)
+  i=0
+  while i<source_array.length do
+    yield
+  end
 end
