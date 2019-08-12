@@ -1,6 +1,5 @@
-# Your Code Here
 def map(source_array)
-  yield(source_array)
+  yield
 end
 
-myownmap(source_array) {|n| n*-1}
+map (source_array)
