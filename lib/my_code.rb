@@ -10,4 +10,4 @@ def myownmap(source_array, factor=1)
 end
 
 myownmap(source_array, -1)
-  {return eq;}
+  {|eq| return eq;}
