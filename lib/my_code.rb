@@ -14,8 +14,8 @@ def reduce(source_array, result=0)
     result = yield(source_array[i],result)
     i+=1
   end
-  if total==nil
-    total=false
+  if result==nil
+    result=false
   end
-  total
+  result
 end
