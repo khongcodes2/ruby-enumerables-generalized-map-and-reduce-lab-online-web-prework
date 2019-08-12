@@ -1,5 +1,5 @@
 # Your Code Here
-def my own map(source_array, factor=1)
+def myownmap(source_array, factor=1)
   i=0
   eq = []
   while i<source_array.length do
@@ -9,5 +9,5 @@ def my own map(source_array, factor=1)
   yield(eq)
 end
 
-my own map(source_array, -1)
+myownmap(source_array, -1)
   {return eq}
