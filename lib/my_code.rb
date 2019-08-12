@@ -14,5 +14,5 @@ def reduce(source_array, total=0)
     total = yield(source_array[i],total)
     i+=1
   end
-  !!total
+  total
 end
