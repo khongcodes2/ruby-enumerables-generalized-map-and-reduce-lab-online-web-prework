@@ -1,5 +1,5 @@
 def map(source_array)
-  yield
+  yield(source_array)
 end
 
-map (source_array)
+map (source_array) {|n| n*(-1)}
